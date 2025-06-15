@@ -17,7 +17,7 @@ public class LoginController {
         String username = usernameField.getText();
         String password = passwordField.getText();
 
-        if (username.equals("admin") && password.equals("admin")) {
+        if (username.equals("Hasyim") && password.equals("123456")) {
             try {
                 Parent inventoryPage = FXMLLoader.load(getClass().getResource("inventory.fxml"));
                 Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
